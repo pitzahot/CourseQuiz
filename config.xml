@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.yourcompany.yourapp"
+    versionCode="1"
+    version   = "1.0.0">
+  <name>Course Qiuz</name>
+  <description>No Description</description>
+  <preference name="permissions" value="none"/>
+
+  <author href="http://www.questionwriter.com" email="your@email.com">Your Name</author>
+
+  <icon src="icon.png" />
+  <gap:splash src="splash.png" />
+  
+  <!-- iOS specific -->
+  <preference name="orientation" value="landscape" />
+  <preference name="target-device" value="tablet" />
+  <preference name="fullscreen" value="true" />
+  <preference name="webviewbounce" value="true" />
+  <preference name="prerendered-icon" value="false" />
+  <preference name="stay-in-webview" value="false" />
+  <preference name="ios-statusbarstyle" value="black-translucent" />
+
+
+  <!-- Android specific -->
+  <preference name="android-installLocation" value="preferExternal" />
+
+
+  <!-- Windows phone specific -->
+
+
+  <!-- Blackberry specific -->
+  <preference name="disable-cursor" value="true" />
+
+
+  <!-- WebOS specific -->
+
+
+
+<!-- to enable individual permissions use the following examples
+<feature name="http://api.phonegap.com/1.0/battery"/>
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<feature name="http://api.phonegap.com/1.0/contacts"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/media"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/notification"/> -->
+  
+</widget>
